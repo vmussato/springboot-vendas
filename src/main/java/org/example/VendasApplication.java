@@ -11,7 +11,6 @@ public class VendasApplication {
 
     @GetMapping("/hello")
     public String helloWorld() {
-        System.out.println("teste");
         return "Hello World";
     }
     
