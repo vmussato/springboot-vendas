@@ -11,9 +11,10 @@ public class VendasApplication {
 
     @GetMapping("/hello")
     public String helloWorld() {
+        System.out.println("teste");
         return "Hello World";
     }
-
+    
     public static void main(String[] args) {
         SpringApplication.run(VendasApplication.class, args);
     }
